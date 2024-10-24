@@ -5,7 +5,7 @@ public class BufferedReaderEje {
 	
 	  public static void main(String[] args) {
 	  try{
-		  File fic = new File("."+ File.separator + "src" + File.separator + "streamsTexto" + File.separator + "fichtexto.txt");//declara fichero
+		  File fic = new File("."+ File.separator + "src" + File.separator + "fichtexto.txt");//declara fichero
 	      BufferedReader fichero = new BufferedReader(new FileReader(fic)); 
 	      String linea; 
 	      while((linea = fichero.readLine())!=null) 	 
